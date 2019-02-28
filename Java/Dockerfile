@@ -1,5 +1,5 @@
-FROM ubuntu:16.10
-MAINTAINER Author name
+FROM ubuntu:16.04
+LABEL MAINTAINER CHANDU
  
 RUN apt-get update
 RUN apt-get install -y python-software-properties software-properties-common
